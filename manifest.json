@@ -1,0 +1,23 @@
+{
+  "name": "Bengali TTS",
+  "version": "1.0",
+  "description": "Listen text in bengali",
+  
+  "background": { "scripts": ["background.js"] },
+
+	"content_scripts": [
+    {
+			"matches": ["<all_urls>"],
+			"js": ["js/myscript.js"],
+			"run_at": "document_end"
+    }
+  ],
+  
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+	"contextMenus",
+	"tabs"
+  ],
+	"manifest_version": 2
+}
