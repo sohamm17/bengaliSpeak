@@ -1,9 +1,9 @@
 {
   "name": "Bengali TTS",
-  "version": "1.0",
-  "description": "Listen text in bengali",
+  "version": "0.1",
+  "description": "Select and listen text in bengali",
   "browser_action": {
-    "default_icon": "images/beng.png"
+    "default_icon": "images/icon.png"
   },
   
   "background": { "scripts": ["background.js"] },
